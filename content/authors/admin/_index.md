@@ -10,7 +10,7 @@ role: Ph.D. candidate
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Tokyo University
+- name: The University of Tokyo
   url: https://tmi.t.u-tokyo.ac.jp/
 
 # Short bio (displayed in user profile at end of posts)
@@ -27,7 +27,7 @@ interests:
 education:
   courses:
   - course: Ph.D. in Technology Management for Innovation
-    institution: Tokyo University
+    institution: The University of Tokyo
     year: 2022
   - course: Master of Science and Technology
     institution: Nara Institute of Science and Technology
@@ -71,7 +71,7 @@ email: ""
 highlight_name: true
 ---
 
-I am a Ph.D. candidate at Tokyo University in Japan (2022-). 
+I am a Ph.D. candidate at The University of Tokyo in Japan (2022-). 
 My research interests include reinforcement learning theory, bandit algorithms, deep learning, and robotics.
 
 

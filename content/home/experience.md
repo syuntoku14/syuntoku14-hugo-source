@@ -39,7 +39,7 @@ experience:
     description: Developed an OSS of theoretical and practical analysis for RL research.
  
   - title: Teaching Assistant
-    company: Deep RL Summer School (Tokyo University)
+    company: Deep RL Summer School (The University of Tokyo)
     company_url: 'https://deeplearning.jp/reinforcement_cource-2020s'
     location: Tokyo, Japan
     date_start: '2021-08-01'

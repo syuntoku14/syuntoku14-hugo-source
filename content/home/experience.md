@@ -23,7 +23,7 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Research Student
-    company: National Institute of Science and Technology (NAIST) Robot Learning Laboratory
+    company: Nara Institute of Science and Technology (NAIST) Robot Learning Laboratory
     company_url: 'https://sites.google.com/view/naist-robot-learning-en'
     location: Nara, Japan
     date_start: '2021-01-01'

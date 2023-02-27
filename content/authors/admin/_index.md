@@ -6,7 +6,7 @@ title: Toshinori Kitamura
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. candidate
+role: Ph.D. student
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -71,8 +71,8 @@ email: ""
 highlight_name: true
 ---
 
-I am a Ph.D. candidate at The University of Tokyo in Japan (2022-). 
-My research interests include reinforcement learning theory, bandit algorithms, deep learning, and robotics.
+I am a Ph.D. student at The University of Tokyo (2022-). 
+My research interests include reinforcement learning theory and application.
 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

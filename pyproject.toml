@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "syuntoku14-hugo-source"
+version = "0.1.0"
+description = ""
+authors = ["syuntoku14 <syuntoku14@gmail.com>"]
+readme = "README.md"
+packages = [{include = "syuntoku14_hugo_source"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+academic = "^0.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

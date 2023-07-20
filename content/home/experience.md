@@ -23,6 +23,14 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Research Student
+    company: The University of Tokyo, Matsuo Lab
+    company_url: 'https://weblab.t.u-tokyo.ac.jp/'
+    location: Tokyo, Japan
+    date_start: '2022-01-01'
+    date_end: '2025-03-01'
+    description: Reinforcement Learning (RL) Research
+
+  - title: Research Student
     company: Nara Institute of Science and Technology (NAIST) Robot Learning Laboratory
     company_url: 'https://sites.google.com/view/naist-robot-learning-en'
     location: Nara, Japan
@@ -35,17 +43,9 @@ experience:
     company_url: 'https://www.omron.com/sinicx/'
     location: Tokyo, Japan
     date_start: '2021-06-01'
-    date_end: '2022-02-01'
-    description: Developed an OSS of theoretical and practical analysis for RL research.
- 
-  - title: Teaching Assistant
-    company: Deep RL Summer School (The University of Tokyo)
-    company_url: 'https://deeplearning.jp/reinforcement_cource-2020s'
-    location: Tokyo, Japan
-    date_start: '2021-08-01'
-    date_end: '2021-09-01'
-    description: Tutored students in deep RL, model-based RL, and entropy-regularized RL.
-    
+    date_end: '2024-02-01'
+    description: RL research
+
   - title: Research Internship
     company: National Institute of Advanced Industrial Science and Technology (AIST)
     company_url: 'https://www.aist.go.jp/index_en.html'

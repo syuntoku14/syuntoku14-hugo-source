@@ -1,5 +1,5 @@
 ---
-title: 強化学習の勉強の内容とやり方の備忘録（Shumi-Noteについて）
+title: 強化学習の勉強の備忘録
 subtitle: 博士課程２年 in 2023
 
 # Summary for listings and search engines

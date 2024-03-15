@@ -18,7 +18,6 @@ bio: My research interests include reinforcement learning theory and deep learni
 
 # Interests to show in About widget
 interests:
-- Deep Learning
 - Reinforcement Learning (Theory & Deep RL)
 - Bandit Algorithms
 - Robotics
@@ -26,18 +25,18 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: Ph.D. in Technology Management for Innovation
+  - course: Ph.D. in Engineering
     institution: The University of Tokyo
-    year: 2022
-  - course: Master of Science and Technology
+    year: 2022-2025
+  - course: M.S. of Science and Technology
     institution: Nara Institute of Science and Technology
-    year: 2020
+    year: 2020-2022
   - course: Exchange Student
     institution: University of California Davis
     year: 2018
-  - course: Faculty of Science and Technology (System Design Engineering)
+  - course: B.E. in Science and Technology 
     institution: Keio University
-    year: 2016
+    year: 2016-2020
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -71,8 +70,7 @@ email: ""
 highlight_name: true
 ---
 
-I am a Ph.D. student at The University of Tokyo (2022-). 
-My research interests include reinforcement learning theory and application.
-
+I am a Ph.D. student at [the University of Tokyo](https://www.u-tokyo.ac.jp/en/) advised by Dr. [Tadashi Kozuno](https://scholar.google.com/citations?user=4VJmx8QAAAAJ&hl=en) and Prof. [Yutaka Matsuo](https://scholar.google.co.jp/citations?user=Dy8iau4AAAAJ&hl=en). 
+I received my master's degree at [Nara Institute of Science and Technology](https://www.naist.jp/en/) advised by Prof. [Takamitsu Matsubara](https://scholar.google.com/citations?user=RFDSj_0AAAAJ&hl=en).
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

@@ -37,14 +37,20 @@ experience:
   #   date_start: '2021-01-01'
   #   date_end: '2022-02-01'
   #   description: Reinforcement Learning (RL) Research
- 
+
+  - title: Research Part-time
+    company: RIKEN Center for Advanced Intelligence Project (Deep Learning Theory Team)
+    company_url: 'https://www.riken.jp/en/research/labs/aip/generic_tech/deep_learn_theory/'
+    location: Tokyo, Japan
+    date_start: '2023-06-01'
+    date_end: '2025-02-01'
+
   - title: Research Internship
     company: OMRON SINIC X Corporation
     company_url: 'https://www.omron.com/sinicx/'
     location: Tokyo, Japan
     date_start: '2021-06-01'
-    date_end: '2024-02-01'
-    # description: RL theory research
+    date_end: '2025-02-01'
 
   - title: Engineering Internship
     company:   Integral AI, Inc.
@@ -59,7 +65,6 @@ experience:
     location: Tokyo, Japan
     date_start: '2019-03-01'
     date_end: '2020-01-01'
-    # description: Researched deep RL with model predictive control for mobile robot in human crowds.
    
   # - title: Research Student
   #   company: Laboratory of Chen-Nee Chuah (UC Davis) 

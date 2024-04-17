@@ -18,9 +18,9 @@ bio: My research interests include reinforcement learning theory and deep learni
 
 # Interests to show in About widget
 interests:
-- Reinforcement Learning (Theory & Deep RL)
+- Reinforcement Learning (Theory)
 - Bandit Algorithms
-- Robotics
+- (Robotics)
 
 # Education to show in About widget
 education:

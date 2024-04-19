@@ -1,5 +1,5 @@
 ---
-title: Deep Learning Lecture (The University of Tokyo)
+title: Deep Learning Course (The University of Tokyo)
 summary: 
 
 # Optional external URL for project (replaces project detail page).

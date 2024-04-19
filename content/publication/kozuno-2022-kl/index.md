@@ -40,7 +40,7 @@ url_source: 'https://arxiv.org/abs/2205.14211'
 projects: []
 publishDate: '2022-12-16T04:11:54.356773Z'
 publication_types:
-- '2'
+- '1'
 abstract: ''
 publication: '*arXiv preprint arXiv:2205.14211*'
 ---

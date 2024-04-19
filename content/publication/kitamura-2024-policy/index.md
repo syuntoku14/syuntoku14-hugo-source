@@ -39,7 +39,7 @@ url_source: 'https://arxiv.org/abs/2401.17780'
 projects: []
 publishDate: '2024-02-05T16:25:08.114154Z'
 publication_types:
-- '2'
+- '1'
 abstract: ''
 publication: '*arXiv preprint arXiv:2401.17780*'
 ---

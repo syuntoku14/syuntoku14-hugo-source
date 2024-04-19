@@ -7,9 +7,9 @@ widget: pages
 headless: true
 
 # Order that this section appears on the page.
-weight: 30
+weight: 35
 
-title: Selected Publications
+title: Domestic Conference and Workshop Papers
 subtitle: ''
 
 content:
@@ -19,7 +19,7 @@ content:
       - publication
     tag: ''
     category: ''
-    publication_type: '1'
+    publication_type: '2'
     author: ''
     exclude_featured: false
     exclude_future: false

@@ -17,7 +17,7 @@ authors:
 - Yutaka Matsuo
 tags: []
 categories: []
-date: '2024-01-01'
+date: '2025-04-01'
 lastmod: 2024-02-06T01:25:12+09:00
 featured: false
 draft: false
@@ -41,5 +41,5 @@ publishDate: '2024-09-04T00:23:59.578423Z'
 publication_types:
 - '1'
 abstract: ''
-publication: '*arXiv preprint arXiv:2408.16286*'
+publication: '*International Conference on Learning Representation (ICLR)*'
 ---

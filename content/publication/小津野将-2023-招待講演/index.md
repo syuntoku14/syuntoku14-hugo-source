@@ -33,7 +33,7 @@ url_source: 'https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2Q1O
 projects: []
 publishDate: '2024-01-31T05:08:22.498539Z'
 publication_types:
-- '2'
+- '3'
 abstract: ''
 publication: '*人工知能学会全国大会論文集 第 37 回 (2023)*'
 ---

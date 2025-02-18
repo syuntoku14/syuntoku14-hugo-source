@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 35
 
-title: Domestic Conference and Workshop Papers
+title: Preprint, Domestic Conference, and Workshop Papers
 subtitle: ''
 
 content:
@@ -19,7 +19,7 @@ content:
       - publication
     tag: ''
     category: ''
-    publication_type: '2'
+    publication_type: '3'
     author: ''
     exclude_featured: false
     exclude_future: false

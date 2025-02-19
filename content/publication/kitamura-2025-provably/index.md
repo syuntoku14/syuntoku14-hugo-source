@@ -1,6 +1,5 @@
 ---
-title: Provably Efficient RL under Episode-Wise Safety in Linear CMDPs
-
+title: Provably Efficient RL under Episode-Wise Safety in Constrained MDPs with Linear Function Approximation
 # Authors
 # A YAML list of author names
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 

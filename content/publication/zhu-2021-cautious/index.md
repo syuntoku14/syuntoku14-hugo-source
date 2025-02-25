@@ -33,7 +33,7 @@ url_source: 'https://arxiv.org/abs/2107.05798'
 projects: []
 publishDate: '2022-02-24T13:28:26.469581Z'
 publication_types:
-- '1'
+- '3'
 abstract: ''
 publication: '*arXiv preprint arXiv:2107.05798*'
 ---

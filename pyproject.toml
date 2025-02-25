@@ -1,16 +1,15 @@
-[tool.poetry]
+[tool.pdm.build]
+includes = ["syuntoku14_hugo_source"]
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[project]
+authors = [{ name = "syuntoku14", email = "syuntoku14@gmail.com" }]
+requires-python = "<4.0,>=3.9"
+dependencies = ["academic<1.0.0,>=0.8.1"]
 name = "syuntoku14-hugo-source"
 version = "0.1.0"
 description = ""
-authors = ["syuntoku14 <syuntoku14@gmail.com>"]
 readme = "README.md"
-packages = [{include = "syuntoku14_hugo_source"}]
-
-[tool.poetry.dependencies]
-python = "^3.9"
-academic = "^0.8.1"
-
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"

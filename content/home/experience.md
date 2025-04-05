@@ -22,13 +22,13 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  # - title: Research Student
-  #   company: The University of Tokyo, Matsuo Lab
-  #   company_url: 'https://weblab.t.u-tokyo.ac.jp/'
-  #   location: Tokyo, Japan
-  #   date_start: '2022-01-01'
-  #   date_end: '2025-03-01'
-  #   description: Reinforcement Learning (RL) Research
+  - title: Postdoctoral Researcher
+    company: The University of Tokyo, Matsuo Lab
+    company_url: 'https://weblab.t.u-tokyo.ac.jp/'
+    location: Tokyo, Japan
+    date_start: '2025-04-01'
+    date_end: '2025-09-01'
+    description: Reinforcement Learning (RL) Theory
 
   # - title: Research Student
   #   company: Nara Institute of Science and Technology (NAIST) Robot Learning Laboratory

@@ -35,7 +35,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
 #   Otherwise, set `projects = []`.
-url_source: https://arxiv.org/abs/2401.17780
+url_source: https://arxiv.org/abs/2408.16286
 projects: []
 publishDate: '2024-09-04T00:23:59.578423Z'
 publication_types:

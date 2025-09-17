@@ -11,23 +11,26 @@ role: Postdoc Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: The University of Tokyo
-  url: https://tmi.t.u-tokyo.ac.jp/
+- name: The University of Alberta
+  url: https://www.ualberta.ca/en/index.html
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interest is reinforcement learning theory.
 
 # Interests to show in About widget
 interests:
-- Reinforcement Learning Theory
+- Safe Reinforcement Learning Theory
 - Bandit Algorithms
 
 # Education to show in About widget
 education:
   courses:
   - course: Postdoctoral Researcher
+    institution: The University of Alberta
+    year: 2025(Sep)-
+  - course: Postdoctoral Researcher
     institution: The University of Tokyo
-    year: 2025-
+    year: 2025-2025(Sep)
   - course: Ph.D. in Engineering
     institution: The University of Tokyo
     year: 2022-2025
@@ -73,8 +76,6 @@ email: ""
 highlight_name: true
 ---
 
-I am a postdoc researcher at [the University of Tokyo](https://www.u-tokyo.ac.jp/en/).
-My Ph.D. was advised by Dr. [Tadashi Kozuno](https://scholar.google.com/citations?user=4VJmx8QAAAAJ&hl=en) and Prof. [Yutaka Matsuo](https://scholar.google.co.jp/citations?user=Dy8iau4AAAAJ&hl=en). 
-I received my master's degree at [Nara Institute of Science and Technology](https://www.naist.jp/en/) advised by Prof. [Takamitsu Matsubara](https://scholar.google.com/citations?user=RFDSj_0AAAAJ&hl=en).
+I am a postdoctoral researcher at the University of Alberta in [Csaba Szepesvári's](https://sites.ualberta.ca/~szepesva/) lab. My Ph.D. was supervised by Dr. [Tadashi Kozuno](https://scholar.google.com/citations?user=4VJmx8QAAAAJ&hl=en) and Prof. [Yutaka Matsuo](https://scholar.google.co.jp/citations?user=Dy8iau4AAAAJ&hl=en). I earned my master's degree at the [Nara Institute of Science and Technology](https://www.naist.jp/en/) under the supervision of Prof. [Takamitsu Matsubara](https://scholar.google.com/citations?user=RFDSj_0AAAAJ&hl=en).
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

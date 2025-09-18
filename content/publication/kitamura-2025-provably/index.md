@@ -29,7 +29,7 @@ publication_types:
 - '1'
 
 # Publication name and optional abbreviated publication name.
-publication: '*arXiv preprint arXiv:2502.10138*'
+publication: '*Neural Information Processing Systems (NeuralIPS) Spotlight*'
 publication_short: ''
 
 doi: ''

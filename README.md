@@ -1,13 +1,13 @@
-## Install
+## Activate
 
 ```
-poetry install
+source .venv/bin/activate
 ```
 
 ## Import publications
 
 ```
-poetry run academic import --bibtex [path to bibtex file]
+academic import --bibtex [path to bibtex file]
 ```
 
 

@@ -1,27 +1,27 @@
 ---
-title: Provably Efficient RL under Episode-Wise Safety in Constrained MDPs with Linear Function Approximation
+title: Emergence of exploration in policy gradient reinforcement learning via retrying
+
 # Authors
 # A YAML list of author names
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
-- Toshinori Kitamura
-- Arnob Ghosh
+- Soichiro Nishimori
+- Paavo Parmas
+- Sotetsu Koyamada
 - Tadashi Kozuno
-- Wataru Kumagai
-- Kazumi Kasaura
-- Kenta Hoshino
-- Yohei Hosoe
+- Toshinori Kitamura
+- Shin Ishii
 - Yutaka Matsuo
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2025-01-01'
+date: '2026-01-01'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2025-02-17T13:51:16.730705Z'
+publishDate: '2026-06-20T01:31:54.025907Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
@@ -29,7 +29,7 @@ publication_types:
 - '1'
 
 # Publication name and optional abbreviated publication name.
-publication: '*Neural Information Processing Systems (NeuralIPS) Spotlight*'
+publication: '*International Conference on Machine Learning (ICML)*'
 publication_short: ''
 
 doi: ''
@@ -50,8 +50,8 @@ url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''
-url_slides: 'https://syuntoku14.github.io/Neurips-linear-CMDP-slides/1'
-url_source: 'https://arxiv.org/abs/2502.10138'
+url_slides: ''
+url_source: 'https://arxiv.org/abs/2606.00151'
 url_video: ''
 
 # Custom links (uncomment lines below)

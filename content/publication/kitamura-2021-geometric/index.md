@@ -33,7 +33,7 @@ url_source: 'https://proceedings.mlr.press/v157/kitamura21a'
 projects: []
 publishDate: '2022-02-24T13:23:31.052161Z'
 publication_types:
-- '1'
+- '3'
 abstract: ''
 publication: '*Asian Conference on Machine Learning (ACML)*'
 ---

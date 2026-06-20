@@ -32,7 +32,7 @@ url_source: 'https://proceedings.mlr.press/v157/zhu21a.html'
 projects: []
 publishDate: '2022-02-24T13:25:39.083232Z'
 publication_types:
-- '1'
+- '3'
 abstract: ''
 publication: '*Asian Conference on Machine Learning (ACML)*'
 ---

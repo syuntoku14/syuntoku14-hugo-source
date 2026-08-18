@@ -1,38 +1,31 @@
 ---
-title: A Unified MDP Framework for Solving Robust, Convex, Multi-Discount Constraints,
-  and Beyond
+title: 'Offline-to-Online Learning in Linear Bandits'
 
 # Authors
 # A YAML list of author names
 # If you created a profile for a user (e.g. the default `admin` user at `content/authors/admin/`), 
 # write the username (folder name) here, and it will be replaced with their full name and linked to their profile.
 authors:
+- Kushagra Chandak
 - Toshinori Kitamura
-- Arnob Ghosh
-- Tadashi Kozuno
-- Kenta Hoshino
-- Yohei Hosoe
-- Kazumi Kasaura
-- Wataru Kumagai
-- Paavo Parmas
-- Yutaka Matsuo
+- Xiaoqi Tan
 
 # Author notes (such as 'Equal Contribution')
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: 2025-01-01
+date: '2026-01-01'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
-publishDate: '2025-10-10T19:56:13.659333Z'
+publishDate: '2026-08-18T00:00:00.000000Z'
 
 # Publication type.
 # A single CSL publication type but formatted as a YAML list (for Hugo requirements).
 publication_types:
-- '3'
+- '1'
 
 # Publication name and optional abbreviated publication name.
-publication: '*Finding the Frame Workshop at RLC 2025*'
+publication: '*Reinforcement Learning Journal (RLJ)*'
 publication_short: ''
 
 doi: ''
@@ -54,7 +47,7 @@ url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://openreview.net/forum?id=TAMLh22i5O'
+url_source: 'https://arxiv.org/abs/2606.04305'
 url_video: ''
 
 # Custom links (uncomment lines below)

@@ -17,7 +17,7 @@ authors:
 # A YAML list of notes for each author in the above `authors` list
 author_notes: []
 
-date: '2026-01-01'
+date: '2026-09-24'
 
 # Date to publish webpage (NOT necessarily Bibtex publication's date).
 publishDate: '2026-05-16T20:42:57.162258Z'
@@ -28,7 +28,7 @@ publication_types:
 - '1'
 
 # Publication name and optional abbreviated publication name.
-publication: '*Neural Information Processing Systems (NeuralIPS)*'
+publication: '*Conference on Neural Information Processing Systems (NeurIPS)*'
 publication_short: ''
 
 doi: ''

@@ -6,3 +6,7 @@
 public/
 jsconfig.json
 node_modules/
+
+# CV build artifacts (the published copy is static/uploads/resume.pdf)
+/cv/build/
+/cv/*.pdf

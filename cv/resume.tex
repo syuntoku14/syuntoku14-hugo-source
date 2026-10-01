@@ -1,0 +1,255 @@
+% Curriculum vitae of Toshinori Kitamura.
+% Build with `make` in this directory (LuaLaTeX). The PDF is copied to
+% ../static/uploads/resume.pdf, which the website links to.
+\documentclass[10pt]{article}
+
+\usepackage[a4paper,left=1.6cm,right=1.6cm,top=1.4cm,bottom=1.6cm]{geometry}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{hyperref}
+
+% ---------------------------------------------------------------- Colors
+\definecolor{accent}{HTML}{0395DE}
+\definecolor{darktext}{HTML}{414141}
+\definecolor{bodytext}{HTML}{333333}
+\definecolor{graytext}{HTML}{5D5D5D}
+\definecolor{lighttext}{HTML}{999999}
+\definecolor{linkcolor}{HTML}{1A4F9C}
+
+% ---------------------------------------------------------------- Fonts
+\setmainfont{SourceSansPro}[
+  Extension      = .otf,
+  UprightFont    = *-Light,
+  ItalicFont     = *-LightIt,
+  BoldFont       = *-Semibold,
+  BoldItalicFont = *-SemiboldIt]
+\newfontfamily\headerfont{Roboto}[
+  Extension   = .ttf,
+  UprightFont = *-Regular,
+  BoldFont    = *-Bold]
+\newfontfamily\regularfont{SourceSansPro}[
+  Extension = .otf, UprightFont = *-Regular, BoldFont = *-Bold]
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\raggedright
+\color{bodytext}
+\hypersetup{colorlinks,urlcolor=linkcolor,linkcolor=linkcolor,
+  pdftitle={Toshinori Kitamura - CV},pdfauthor={Toshinori Kitamura}}
+
+% ---------------------------------------------------------------- Macros
+% The CV owner, highlighted in author lists.
+\newcommand{\me}{\textbf{\color{darktext}Toshinori Kitamura}}
+
+\newcommand{\cvsection}[1]{%
+  \par\vspace{10pt}%
+  {\headerfont\bfseries\fontsize{16}{18}\selectfont\color{accent}#1}%
+  \hspace{6pt}{\color{graytext}\leaders\hrule height 0.6pt\hfill\kern0pt}%
+  \par\vspace{4pt}}
+
+\newcommand{\cvsubsection}[1]{%
+  \par\vspace{5pt}%
+  {\regularfont\bfseries\fontsize{11}{13}\selectfont\color{darktext}#1}%
+  \par\vspace{1pt}}
+
+% \cventry{organization}{date}{position}{details (itemize content, may be empty)}
+\newcommand{\cventry}[4]{%
+  \par\vspace{3pt}%
+  {\bfseries\fontsize{11}{13}\selectfont\color{darktext}#1}\hfill
+  {\itshape\color{accent}#2}\par
+  {\scshape\fontsize{9}{11}\selectfont\color{graytext}#3}\par
+  \if\relax\detokenize{#4}\relax\else
+    \begin{cvitems}#4\end{cvitems}%
+  \fi}
+
+\newlist{cvitems}{itemize}{2}
+\setlist[cvitems,1]{label={\color{darktext}\textbullet},leftmargin=12pt,
+  topsep=1pt,itemsep=0pt,parsep=1pt}
+\setlist[cvitems,2]{label={\color{graytext}--},leftmargin=14pt,
+  topsep=0pt,itemsep=0pt,parsep=1pt}
+
+% \paper{url}{title}{authors}{venue}
+\newcommand{\paper}[4]{%
+  \item ``\href{#1}{#2}''\par
+  {\color{graytext}#3, \textbf{\color{darktext}#4}}}
+
+% ================================================================ Document
+\begin{document}
+
+% ---------------------------------------------------------------- Header
+\begin{center}
+  {\headerfont\bfseries\fontsize{32}{36}\selectfont\color{darktext}Toshinori Kitamura}\par
+  \vspace{6pt}
+  {\fontsize{9}{11}\selectfont\color{graytext}%
+    \href{https://syuntoku14.github.io/}{\faHome\ syuntoku14.github.io}
+    \quad{\color{lighttext}|}\quad
+    \href{mailto:toshinor@ualberta.ca}{\faEnvelope[regular]\ toshinor@ualberta.ca}
+    \quad{\color{lighttext}|}\quad
+    \href{https://github.com/syuntoku14}{\faGithub\ syuntoku14}
+    \quad{\color{lighttext}|}\quad
+    \href{https://scholar.google.com/citations?user=-gi3cKgAAAAJ}{\faGraduationCap\ Google Scholar}}
+\end{center}
+
+% ---------------------------------------------------------------- Positions
+\cvsection{Positions}
+
+\cventry{University of Alberta}{Sep 2025 -- Present}
+  {Postdoctoral Researcher}
+  {\item Supervisor: Prof. Csaba Szepesvári}
+
+\cventry{The University of Tokyo}{Apr 2025 -- Sep 2025}
+  {Postdoctoral Researcher}
+  {\item Supervisor: Prof. Yutaka Matsuo}
+
+% ---------------------------------------------------------------- Education
+\cvsection{Education}
+
+\cventry{The University of Tokyo}{2022 -- 2025}
+  {Ph.D. in Engineering}
+  {\item Supervisors: Dr. Tadashi Kozuno and Prof. Yutaka Matsuo}
+
+\cventry{Nara Institute of Science and Technology (NAIST)}{2020 -- 2022}
+  {M.S. in Science and Technology}
+  {\item Supervisor: Prof. Takamitsu Matsubara}
+
+\cventry{Keio University}{2016 -- 2020}
+  {B.E. in Science and Technology}
+  {\item Supervisor: Prof. Toru Namerikawa}
+
+\cventry{University of California, Davis}{2018 -- 2019}
+  {Exchange Student}
+  {\item Supervisor: Prof. Lifeng Lai}
+
+% ---------------------------------------------------------------- Publications
+\cvsection{Publications}
+
+\cvsubsection{Conference and Journal Papers}
+\begin{cvitems}
+  \paper{https://arxiv.org/abs/2604.21177}
+    {Revisiting Subgradient Dominance in Robust MDPs: Counterexamples, Hardness, and Sufficient Conditions}
+    {\me, Arnob Ghosh, Alex Ayoub, Thang D. Chu, Csaba Szepesvári}
+    {NeurIPS 2026 (acceptance rate 25.7\%)}
+  \paper{https://arxiv.org/abs/2606.28616}
+    {Randomized Exploration for Linear Bandits via Absolute Perturbations}
+    {\me, Shuai Liu, Csaba Szepesvári}
+    {RLC 2026 (acceptance rate 33.9\%)}
+  \paper{https://arxiv.org/abs/2606.04305}
+    {Offline-to-Online Learning in Linear Bandits}
+    {Kushagra Chandak, \me, Xiaoqi Tan}
+    {RLC 2026 (acceptance rate 33.9\%)}
+  \paper{https://arxiv.org/abs/2606.00151}
+    {Emergence of Exploration in Policy Gradient Reinforcement Learning via Retrying}
+    {Soichiro Nishimori, Paavo Parmas, Sotetsu Koyamada, Tadashi Kozuno, \me, Shin Ishii, Yutaka Matsuo}
+    {ICML 2026 (acceptance rate 26.6\%)}
+  \paper{https://arxiv.org/abs/2502.10138}
+    {Provably Efficient RL under Episode-Wise Safety in Constrained MDPs with Linear Function Approximation}
+    {\me, Arnob Ghosh, Tadashi Kozuno, Wataru Kumagai, Kazumi Kasaura, Kenta Hoshino, Yohei Hosoe, Yutaka Matsuo}
+    {NeurIPS 2025 (Spotlight, top 3.2\%; acceptance rate 24.5\%)}
+  \paper{https://arxiv.org/abs/2408.16286}
+    {Near-Optimal Policy Identification in Robust Constrained Markov Decision Processes via Epigraph Form}
+    {\me, Tadashi Kozuno, Wataru Kumagai, Kenta Hoshino, Yohei Hosoe, Kazumi Kasaura, Masashi Hamaya, Paavo Parmas, Yutaka Matsuo}
+    {ICLR 2025 (acceptance rate 31.9\%)}
+  \paper{https://arxiv.org/abs/2305.13185}
+    {Regularization and Variance-Weighted Regression Achieves Minimax Optimality in Linear MDPs: Theory and Practice}
+    {\me, Tadashi Kozuno, Yunhao Tang, Nino Vieillard, Michal Valko, Wenhao Yang, Jincheng Mei, Pierre Ménard, Mohammad Gheshlaghi Azar, Rémi Munos, Olivier Pietquin, Matthieu Geist, Csaba Szepesvári, Wataru Kumagai, Yutaka Matsuo}
+    {ICML 2023 (acceptance rate 27.9\%)}
+  \paper{https://proceedings.mlr.press/v157/kitamura21a}
+    {Geometric Value Iteration: Dynamic Error-Aware KL Regularization for Reinforcement Learning}
+    {\me, Lingwei Zhu, Takamitsu Matsubara}
+    {ACML 2021 (acceptance rate 30.4\%)}
+  \paper{https://proceedings.mlr.press/v157/zhu21a.html}
+    {Cautious Actor-Critic}
+    {Lingwei Zhu, \me, Takamitsu Matsubara}
+    {ACML 2021 (acceptance rate 30.4\%)}
+\end{cvitems}
+
+\cvsubsection{Workshop Papers, Preprints, and Domestic Conferences}
+\begin{cvitems}
+  \paper{https://openreview.net/forum?id=TAMLh22i5O}
+    {A Unified MDP Framework for Solving Robust, Convex, Multi-Discount Constraints, and Beyond}
+    {\me, Arnob Ghosh, Tadashi Kozuno, Kenta Hoshino, Yohei Hosoe, Kazumi Kasaura, Wataru Kumagai, Paavo Parmas, Yutaka Matsuo}
+    {Finding the Frame Workshop at RLC 2025}
+  \paper{https://arxiv.org/abs/2401.17780}
+    {A Policy Gradient Primal-Dual Algorithm for Constrained MDPs with Uniform PAC Guarantees}
+    {\me, Tadashi Kozuno, Masahiro Kato, Yuki Ichihara, Soichiro Nishimori, Akiyoshi Sannai, Sho Sonoda, Wataru Kumagai, Yutaka Matsuo}
+    {RLC Safety Workshop 2024 (Oral)}
+  \paper{https://www.jstage.jst.go.jp/article/pjsai/JSAI2023/0/JSAI2023_2Q1OS27a04/_article/-char/ja/}
+    {On Various Problem Settings of Sequential Decision Making and How Prior Knowledge of Problems Affects Theoretical Guarantees}
+    {Tadashi Kozuno, \me, Yuki Ichihara, Makoto Hagiwara}
+    {JSAI 2023}
+  \paper{https://arxiv.org/abs/2205.14211}
+    {KL-Entropy-Regularized RL with a Generative Model is Minimax Optimal}
+    {Tadashi Kozuno, Wenhao Yang, Nino Vieillard, \me, Yunhao Tang, Jincheng Mei, Pierre Ménard, Mohammad Gheshlaghi Azar, Michal Valko, Rémi Munos, Olivier Pietquin, Matthieu Geist, Csaba Szepesvári}
+    {arXiv 2022}
+  \paper{https://arxiv.org/abs/2112.04123}
+    {ShinRL: A Library for Evaluating RL Algorithms from Theoretical and Practical Perspectives}
+    {\me, Ryo Yonetani}
+    {NeurIPS Deep RL Workshop 2021}
+\end{cvitems}
+
+% ---------------------------------------------------------------- Teaching
+\cvsection{Teaching}
+
+\cventry{Foundations of RL, The University of Tokyo, Japan}{2027}
+  {Lecturer}
+  {\item \href{https://syuntoku14.github.io/Foundations-of-RL}{Slides}}
+
+\cventry{Deep RL Spring Seminar, The University of Tokyo, Japan}{2023, 2024, 2025}
+  {Lecturer}
+  {\item \href{https://deeplearning.jp/drl-course-2023sp/}{Course page}}
+
+\cventry{Deep Learning Course, The University of Tokyo, Japan}{2023, 2024, 2025}
+  {Lecturer}
+  {\item \href{https://deeplearning.jp/en/lectures/dlb2023/}{Course page}}
+
+% ---------------------------------------------------------------- Awards
+\cvsection{Awards}
+
+\begin{cvitems}
+  \item \textbf{\color{darktext}Open Champion, 2026}: \href{https://abkendotournament.com/}{Alberta Provincial Kendo Championships}
+  \item \textbf{\color{darktext}NeurIPS 2025 Spotlight} (688 of 21,575 submissions, top 3.2\%):
+    Provably Efficient RL under Episode-Wise Safety in Constrained MDPs with Linear Function Approximation
+  \item \textbf{\color{darktext}Head of Department's Award (Research), 2025}:
+    Department of Technology Management for Innovation, Graduate School of Engineering, The University of Tokyo
+\end{cvitems}
+
+% ---------------------------------------------------------------- Service
+\cvsection{Professional Service}
+
+\begin{cvitems}
+  \item \textbf{\color{darktext}Area Chair}: ICLR
+  \item \textbf{\color{darktext}Reviewer}: NeurIPS, ICLR, RLC
+\end{cvitems}
+
+% ---------------------------------------------------------------- Experience
+\cvsection{Research Experience}
+
+\cventry{RIKEN Center for Advanced Intelligence Project}{2023 -- 2025}
+  {Part-time Researcher, \href{https://www.riken.jp/en/research/labs/aip/generic_tech/deep_learn_theory/}{Deep Learning Theory Team}}
+  {\item Statistical RL theory: constrained RL and general function approximation}
+
+\cventry{\href{https://www.omron.com/sinicx/en/}{OMRON SINIC X Corporation}}{2021 -- 2022, 2023 -- 2024}
+  {Research Intern}
+  {\item RL library with JAX and statistical RL theory}
+
+\cventry{National Institute of Advanced Industrial Science and Technology (AIST)}{2019 -- 2020}
+  {Research Intern}
+  {\item RL for mobile robot navigation in human crowds}
+
+% ---------------------------------------------------------------- Industry
+\cvsection{Industry Experience}
+
+\cventry{\href{https://www.integral.ai/}{Integral AI, Inc.}}{2022}
+  {Engineering Intern (Robotics)}
+  {}
+
+\cventry{\href{https://ugo.plus/}{ugo, Inc.}}{2018}
+  {Engineering Intern (Robotics)}
+  {}
+
+\end{document}

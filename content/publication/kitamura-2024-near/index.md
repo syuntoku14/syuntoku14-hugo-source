@@ -41,5 +41,5 @@ publishDate: '2024-09-04T00:23:59.578423Z'
 publication_types:
 - '1'
 abstract: ''
-publication: '*International Conference on Learning Representation (ICLR)*'
+publication: '*International Conference on Learning Representations (ICLR)*'
 ---

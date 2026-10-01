@@ -6,16 +6,16 @@ title: Toshinori Kitamura
 superuser: true
 
 # Role/position/tagline
-role: Postdoc Researcher
+role: Postdoctoral Researcher
 
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: The University of Alberta
+- name: University of Alberta
   url: https://www.ualberta.ca/en/index.html
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interest is reinforcement learning theory.
+bio: My research interests lie in reinforcement learning theory.
 
 # Interests to show in About widget
 interests:
@@ -26,7 +26,7 @@ interests:
 education:
   courses:
   - course: Postdoctoral Researcher
-    institution: The University of Alberta
+    institution: University of Alberta
     year: 2025(Sep)-
   - course: Postdoctoral Researcher
     institution: The University of Tokyo
@@ -34,13 +34,13 @@ education:
   - course: Ph.D. in Engineering
     institution: The University of Tokyo
     year: 2022-2025
-  - course: M.S. of Science and Technology
+  - course: M.S. in Science and Technology
     institution: Nara Institute of Science and Technology
     year: 2020-2022
   - course: Exchange Student
-    institution: University of California Davis
+    institution: University of California, Davis
     year: 2018
-  - course: B.E. in Science and Technology 
+  - course: B.E. in Science and Technology
     institution: Keio University
     year: 2016-2020
 

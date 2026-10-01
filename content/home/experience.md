@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: Working Experience
+title: Work Experience
 subtitle:
 
 # Date format for experience
@@ -38,28 +38,28 @@ experience:
   #   date_end: '2022-02-01'
   #   description: Reinforcement Learning (RL) Research
 
-  - title: Research Part-time
+  - title: Part-time Researcher
     company: RIKEN Center for Advanced Intelligence Project (Deep Learning Theory Team)
     company_url: 'https://www.riken.jp/en/research/labs/aip/generic_tech/deep_learn_theory/'
     location: Tokyo, Japan
     date_start: '2023-06-01'
     date_end: '2025-02-01'
 
-  - title: Research Internship
+  - title: Research Intern
     company: OMRON SINIC X Corporation
     company_url: 'https://www.omron.com/sinicx/'
     location: Tokyo, Japan
     date_start: '2021-06-01'
     date_end: '2025-02-01'
 
-  - title: Engineering Internship
+  - title: Engineering Intern
     company:   Integral AI, Inc.
     company_url: 'https://www.integral.ai/'
     location: Tokyo, Japan
     date_start: '2022-06-01'
     date_end: '2013-04-01'
 
-  - title: Research Internship
+  - title: Research Intern
     company: National Institute of Advanced Industrial Science and Technology (AIST)
     company_url: 'https://www.aist.go.jp/index_en.html'
     location: Tokyo, Japan
